@@ -1,100 +1,121 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+
    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
+     <!-- icon -->
+     <link rel="stylesheet" href="myProjects/webProject/icofont/css/icofont.min.css">
+     <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
     <title>Bambang Sugeng M</title>
-  </head>
-  <body id="home">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#">Mars</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-              <a class="nav-link active" href="#about">About</a>
-              <a class="nav-link active" href="#project">Project</a>
-              <a class="nav-link active" href="#contact">Contact</a>
-            </div>
-          </div>
+</head>
+<body id="home">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#profile">Mars</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" aria-current="#profile" href="#home">Home</a>
+          <a class="nav-link active" href="#about">About</a>
+          <a class="nav-link active" href="#project">Project</a>
+          <a class="nav-link active" href="#contact">Contact</a>
+          <a class="nav-link active" href="#social">Social</a>
         </div>
-    </nav>
-    <!-- Akhir Navbar -->
+      </div>
+    </div>
+</nav>
+  <!-- Akhir Navbar -->
 
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center ">
-        <img src="assets/profil.jpg" alt="bambang sugeng m" width="200" class="rounded-circle img-thumbnail">
-        <h1 class="display-4">Bambang Sugeng M</h1>
-        <p class="lead">Students</p>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,128L48,117.3C96,107,192,85,288,112C384,139,480,213,576,208C672,203,768,117,864,96C960,75,1056,117,1152,128C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-    </section>
-    <!-- Akhir jumbotron -->
-
-    <!-- About -->
-    <section id="about">
+  <!-- Profile -->
+  <section id="profile" class="profile">
+    <div class="container">
         <div class="container">
-            <div class="container">
-                <div class="row text-center mb-3">
-                    <div class="coloumn">
-                        <h2>About Me</h2>
-                    </div>
+            <div class="row justify-content-center fs-5 text-between ">
+                <div class="col-md-4">
+                    <img src="assets/profil.jpg" alt="foto profil" width="200" class="rounded-circle img-thumbnail">
                 </div>
-                <div class="row justify-content-center fs-5 text-center ">
-                    <div class="col-md-4">
-                        <p>Hallo, perkenalkan nama saya Bambang Sugeng Marsudianto. Saya berasal dari kabupaten cirebon yang ada di jawabarat. Saya kuliah di kota pelajar Universitas Amikom Yogyakarta Jurusan Informatika. Saya belajar coding sejak saya masuk kuliah sekitar 2020. Saya sedikit mengerti bahasa pemograman seperti c++, C#, python, sql.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <p>Pada saat kuliah pernah membuat beberapa project, project tersebut dibuat karena ditugaskan oleh dosen. Sudah beberapa projrct yang saya buat seperti pinjam dan pengembalian buku perpus dengan bahasa c++, aplikasi crossplatform berbasis mvvm(model view view model) dengan menggunakan c# dan lain lain </p>
-                    </div>
+                <div class="col-md-4">
+                    <br>
+                    <h1 style="color: #2d3142;">Bambang Sugeng Marsudianto</h1>
+                    <h3 style="color: #4f5d75;">Student | Data Scienctist</h3>
                 </div>
             </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,128L48,138.7C96,149,192,171,288,197.3C384,224,480,256,576,250.7C672,245,768,203,864,170.7C960,139,1056,117,1152,128C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-    </section>
-    <!-- Akhir About -->
+    </div>
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L48,138.7C96,149,192,171,288,197.3C384,224,480,256,576,250.7C672,245,768,203,864,170.7C960,139,1056,117,1152,128C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
+  </section>
+  <!-- Akhir dari Profile -->
 
-    <!-- projects -->
-    <section id="project">
+  <!-- About -->
+  <section id="about">
+    <div class="container">
         <div class="container">
             <div class="row text-center mb-3">
-                <div class="col">
-                    <h2>My Project</h2>
+                <div class="coloumn">
+                    <h2>About Me</h2>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-md-4 mb-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="assets/shop.jpg" class="card-img-top" alt="project 1">
-                        <div class="card-body">
-                          <h3>SHOP</h3>
-                          <a href="https://sugengmars.github.io/SugengMars/" class="btn btn-primary">Check This</a>
-                        </div>
-                      </div>
+            <div class="row justify-content-between fs-5 text-center">
+                <div class="col-md-4">
+                    <p>Hello, my name is Bambang Sugeng Marsudianto. I come from Cirebon district which is in East Java. I study in the student city of Amikom University, Yogyakarta, majoring in Informatics. I've been learning coding since I entered college around 2020. I understand a little bit of programming languages ​​like c++, C#, python, sql.</p>
                 </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-md-4">
+                    <p>During college, I made several projects, these projects were made because they were assigned by the lecturer. I have made several projects, such as borrowing and returning library books in C++ language, cross-platform applications based on mvvm(model view view model) using c# and others.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#bfc0c0" fill-opacity="1" d="M0,128L48,138.7C96,149,192,171,288,197.3C384,224,480,256,576,250.7C672,245,768,203,864,170.7C960,139,1056,117,1152,128C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
+  </section>
+  <!-- Akhir About -->
+
+  <!-- Project -->
+  <section class="project" id="project">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="coloumn">
+            <h2>My Projects</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-4 mb-3">
+        <div class="card" style="width: 18rem;">
+            <img src="assets/shop.jpg" class="card-img-top" alt="project 1">
+            <div class="card-body">
+              <h3>SHOP</h3>
+              <a href="https://sugengmars.github.io/SugengMars/" class="btn btn-primary">Check This</a>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+           <div class="card" style="width: 18rem;">
                         <img src="assets/angka.jpg" class="card-img-top" alt="project 2">
                         <div class="card-body">
                           <h3>GUESS NUMBER</h3>
                           <a href="https://github.com/SugengMars/Tebak_Angka" class="btn btn-primary">Check This</a>
                         </div>
-                      </div>
-                </div>
+           </div>
+      </div>
+      
                 <div class="col-md-4 mb-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets/GBK.jpg" class="card-img-top" alt="project 3">
+                        <img src="assets/GBKERTAS.jpg" class="card-img-top" alt="project 3">
                         <div class="card-body">
                           <h3>GAME</h3>
                           <a href="https://github.com/SugengMars/SuitGame" class="btn btn-primary">Check This</a>
@@ -105,7 +126,7 @@
                     <div class="card" style="width: 18rem;">
                         <img src="assets/pass.jpg" class="card-img-top" alt="project 4">
                         <div class="card-body">
-                          <h3>RANDOM PASSWORD</h3>
+                          <h3>RANDOM PASS</h3>
                           <a href="https://github.com/SugengMars/random_password" class="btn btn-primary">Check This</a>
                         </div>
                       </div>
@@ -119,45 +140,89 @@
                         </div>
                       </div>
                 </div>
-            </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L48,74.7C96,117,192,203,288,218.7C384,235,480,181,576,165.3C672,149,768,171,864,197.3C960,224,1056,256,1152,250.7C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-    </section>
-    <!-- Akhir projects -->
+    </div>
 
-    <!-- Contact -->
-    <section id="contact">
-        <div class="container">
-            <div class="row text-center mb-3">
-                <div class="col">
-                    <h2>Contact Me</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <form>
-                        <div class="mb-3">
-                          <label for="name" class="form-label">Sender</label>
-                          <input type="text" class="form-control" id="name" aria-describedby="name">
-                        </div>
-                        <div class="mb-3">
-                            <label for="pesan" class="form-label">Massage</label>
-                            <textarea class="form-control" id="pesan" rows="3"></textarea>
-                          </div>
-                          <a class="btn btn-outline-primary" href="https://wa.me/6282129224312?text=Haiii...%20Haii%20Bambang%20Sugeng%20Marsudianto!!!%0ANama%20saya%0A30$" role="button">Send</a>
-                      </form>
-                </div>
-            </div>
+    </div>
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L48,74.7C96,117,192,203,288,218.7C384,235,480,181,576,165.3C672,149,768,171,864,197.3C960,224,1056,256,1152,250.7C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
+  </section>
+  <!-- Akhir dari Project -->
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="coloumn">
+            <h2>Contact Me</h2>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,224C384,224,480,160,576,149.3C672,139,768,181,864,170.7C960,160,1056,96,1152,90.7C1248,85,1344,139,1392,165.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-    </section>
-    <!-- Akhir Contact -->
+      </div>
+    </div>
+    <div class="contactForm">
+      <form onsubmit="sendEmail(); reset(); false;">
+          <h2>Send Email Message</h2>
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <input type="text" id="phone" placeholder="Your Phone" required>
+          <input type="text" id="subject" placeholder="Subject is .." required>
+          <textarea id="message" rows="4" placeholder="Your Message ..."></textarea>
+          <button type="submit" id="btn">Send</button>
+      </form>
+  </div>
+  </section>
+  <!-- SOCIAL-->
+  <section id="social">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+            <h2>Our Social Media</h2>
+        </div>
+     </div>
+     
+        <div class="social">
+          <!-- <img src="img/Google.png" alt=""> -->
+        <a href="https://web.facebook.com/bambangsugeng.marsudianto"><img src="assets/fb.png" alt=""></a>
+        <a href="https://www.instagram.com/bsugengm/"><img src="assets/ig.png" alt=""></a>
+        <a href="https://twitter.com/Bambang67873258"><img src="assets/twi.png" alt=""></a>
+        
+        </div>
+        
+    </div>
+  </section>
+  <!-- Akhir dari SOCIAL-->
+  <!-- footer -->
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center pb-5">
+    <p>created by<a href="https://github.com/SugengMars" class="text-white fw-bold"> Bambang Sugeng M</a></p>
+  </footer>
+  <!-- akhir dari footer -->
 
-    <!-- Footer -->
-    <footer class="bg-primary text-white text-center pb-5">
-        <p>Created by <a href="https://github.com/SugengMars" class="text-white fw-bold">Bambang Sugeng M</a></p>
-    </footer>
-    <!-- Akhir Footer -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  </body>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- cdn dari smtp -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+    var btn = document.getElementById('btn');
+        btn.addEventListener('click', function(e){
+            e.preventDefault()
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var phone = document.getElementById('phone').value;
+            var subject = document.getElementById('subject').value;
+            var message = document.getElementById('message').value;
+            var body = 'name: ' +name + '<br/> email: '+ email + '<br/> phone: '+ phone + '<br/> message: ' + message;
+            
+            Email.send({
+            Host : "smtp.gmail.com",
+            Username : "bamsum99@gmail.com",
+            Password : "kcdjvylyvcjanjxd",
+            To : 'bamsum99@gmail.com',
+            From : email,
+            Subject : subject,
+            Body : body
+        }).then(
+        message => alert(message)
+        );
+        })
+  </script>
+  <script src="index.js"></script>
+</body>
 </html>
